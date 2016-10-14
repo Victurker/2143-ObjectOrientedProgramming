@@ -1,4 +1,4 @@
-# Test 1 Makeup - OOP - Fall 2016
+#Victor Nnabuenyi
 
 ## Instructions:
 
@@ -43,7 +43,7 @@ print "Total Employee %d" % Employee.empCount
 -----
 
 ### Answer 1
-
+```python1617class Employee:1819   empCount = 02021   def __init__(self, name, salary):22      self.name = name23      self.salary = salary24      Employee.empCount += 125   26   def displayCount(self):27     print "Total Employee %d" % Employee.empCount2829   def displayEmployee(self):30      print "Name : ", self.name,  ", Salary: ", self.salary313233emp1 = Employee("Zara", 2000)3435emp2 = Employee("Manni", 5000)3637emp1.displayEmployee()38emp2.displayEmployee()3940print "Total Employee %d" % Employee.empCount4142```43-----4445
 ```python
 # place answer here
 # use this as a template for your other answers
